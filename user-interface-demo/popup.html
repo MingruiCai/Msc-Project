@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>popup</title>
+  </head>
+  <body
+    style="
+      text-align: center;
+      font-family: Lucida Console, Courier New, monospace;
+      font-size: medium;
+      width: 500px;
+      min-height: 200px;
+      display: flex;
+      flex-direction: column;
+    "
+  >
+    Twitter Privacy Management Tool 
+	<br/>
+	<br/>
+	
+    <!-- <script type="text/javascript" src="js/popup.js"></script> -->
+
+    <form style="width: 500px;margin: 5px;">
+      Twitter screen name (with @ as prefix):<br />
+      <input type="text" name="screen" value="Your screen name" style="margin: 5px;"/>
+      <br />
+      Potential tweet:<br />
+      <!-- <input type="text" name="tweet" value="Mouse" /> -->
+      <textarea rows="5" cols="50"style="margin: 5px;">Please input a new tweet that you want to post here.</textarea>
+      <br />
+      <input type="submit" value="Submit" style="padding: 10px;"/>
+    </form>
+
+    <p>
+      If you click submit, we will analyze your potential tweet to detect if
+      there are any privacy risks and give you feedback.
+    </p>
+  </body>
+</html>
